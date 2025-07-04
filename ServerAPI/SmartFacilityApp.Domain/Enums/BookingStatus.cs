@@ -8,8 +8,9 @@ namespace SmartFacilityApp.Domain.Enums
 {
     public enum BookingStatus
     {
-        Succeced,
-        Failed,
-        Rejected
+        Pending,
+        Approved,
+        Rejected,
+        Cancelled
     }
 }
